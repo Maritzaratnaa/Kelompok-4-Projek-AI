@@ -45,7 +45,7 @@ def prepare_image(img_path):
     return predicted_class.capitalize()
 
 def run():
-    st.markdown("<h1 style='text-align: center;'> Fruit & Vegetable Classifier </h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'> Check Your Fruit & Vegetable Nutrition </h1>", unsafe_allow_html=True)
     st.markdown("Unggah gambar buah atau sayuran dan dapatkan prediksi serta informasi gizinya.")
 
     img_file = st.file_uploader("📷 Pilih gambar buah atau sayuran", type=["jpg", "png", "jpeg"])
