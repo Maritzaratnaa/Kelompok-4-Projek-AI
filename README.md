@@ -15,6 +15,7 @@
 - Vitamin  
 
 Proyek ini bertujuan membantu pengguna untuk memahami nilai gizi dari makanan yang mereka konsumsi hanya dengan memotret atau mengunggah gambar bahan makanan tersebut.
+Link Aplikasi:  [Fruit and Vegetable Nutrition Detector](https://fruitandvegetable.streamlit.app/)
 
 ---
 
