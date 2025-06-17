@@ -1,4 +1,9 @@
-# 🍎 Fruit and Vegetable Nutrition Detector
+# Fruit and Vegetable Nutrition Detector
+
+## Anggota
+1. 140810230062 Wa Ode Zachra Chaerani
+2. 140810230068 Bunga Adlyna Windasari
+3. 140810230072 Maritza Ratnamaya Nugroho
 
 ## Deskripsi Proyek
 **Fruit and Vegetable Nutrition Detector** adalah aplikasi berbasis Artificial Intelligence (AI) yang dapat mengenali berbagai jenis buah dan sayuran melalui gambar dan secara otomatis menampilkan informasi gizi seperti:
@@ -13,7 +18,7 @@ Proyek ini bertujuan membantu pengguna untuk memahami nilai gizi dari makanan ya
 
 ---
 
-## ✅ Problem yang Diselesaikan
+## Problem yang Diselesaikan
 Banyak orang tidak mengetahui kandungan gizi dari buah atau sayuran yang mereka konsumsi. Dengan proyek ini, pengguna dapat dengan mudah:
 
 - Mendeteksi jenis buah/sayuran dari gambar.
@@ -21,21 +26,21 @@ Banyak orang tidak mengetahui kandungan gizi dari buah atau sayuran yang mereka 
 
 ---
 
-## 🧠 Model AI yang Digunakan
+## Model AI yang Digunakan
 Model AI yang digunakan adalah **Convolutional Neural Network (CNN)**, yang dilatih untuk klasifikasi gambar buah dan sayuran. CNN dipilih karena performanya yang sangat baik dalam mengenali pola visual dan klasifikasi objek dalam gambar.
 
 ---
 
-## 🧾 Dataset
+## Dataset
 Dataset yang digunakan adalah koleksi gambar buah dan sayuran yang dikurasi dari berbagai sumber, dengan total 36 kelas yang dapat dikenali oleh model.
 
-🔗 Link Dataset:  
+Link Dataset:  
 Dataset yang digunakan dapat ditemukan di 
 ---
 
-### 🏷️ Kelas yang Dapat Dideteksi
+### Buah dan Sayuran yang Dapat Dideteksi
 
-Model dapat mengenali **36 kelas buah dan sayuran**, yaitu:
+Model dapat mengenali **36 buah dan sayuran**, yaitu:
 
 - Apel  
 - Pisang  
