@@ -16,11 +16,11 @@ labels = {
     29: 'soy beans', 30: 'spinach', 31: 'sweetcorn', 32: 'sweetpotato', 33: 'tomato', 34: 'turnip', 35: 'watermelon'
 }
 
-fruits = ['Apple 🍎', 'Banana 🍌', 'Bell Pepper 🫑', 'Chilli Pepper 🌶️', 'Grapes 🍇', 'Jalepeno 🌶️', 'Kiwi 🥝', 'Lemon 🍋', 'Mangga 🥭', 'Orange 🍊',
-          'Paprika 🫑', 'Pear 🍐', 'Pineapple 🍍', 'Pomegranate', 'Watermelon 🍉']
-vegetables = ['Beetroot', 'Cabbage 🥬', 'Capsicum', 'Carrot 🥕', 'Cauliflower 🥦', 'Corn 🌽', 'Cucumber 🥒', 'Eggplant 🍆', 'Ginger 🫚',
-              'Lettuce', 'Onion 🧅', 'Peas', 'Potato 🥔', 'Raddish', 'Soy Beans 🫘', 'Spinach', 'Sweetcorn 🌽', 'Sweetpotato 🍠',
-              'Tomato 🍅', 'Turnip']
+fruits = ['Apple', 'Banana', 'Bello Pepper', 'Chilli Pepper', 'Grapes', 'Jalepeno', 'Kiwi', 'Lemon', 'Mango', 'Orange',
+          'Paprika', 'Pear', 'Pineapple', 'Pomegranate', 'Watermelon']
+vegetables = ['Beetroot', 'Cabbage', 'Capsicum', 'Carrot', 'Cauliflower', 'Corn', 'Cucumber', 'Eggplant', 'Ginger',
+              'Lettuce', 'Onion', 'Peas', 'Potato', 'Raddish', 'Soy Beans', 'Spinach', 'Sweetcorn', 'Sweetpotato',
+              'Tomato', 'Turnip']
 
 def fetch_nutrition_from_csv(prediction):
     try:
@@ -45,7 +45,7 @@ def prepare_image(img_path):
     return predicted_class.capitalize()
 
 def run():
-    st.markdown("<h1 style='text-align: center;'>🍎 Fruit & Vegetable Classifier 🥦</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>🍎 Fruit & Vegetable Classifier 🍆</h1>", unsafe_allow_html=True)
     st.markdown("Unggah gambar buah atau sayuran dan dapatkan prediksi serta informasi gizinya.")
 
     img_file = st.file_uploader("📷 Pilih gambar buah atau sayuran", type=["jpg", "png", "jpeg"])
@@ -73,8 +73,8 @@ def run():
                     - **Lemak**: {nutrisi['lemak']} g  
                     - **Protein**: {nutrisi['protein']} g  
                     - **Karbohidrat**: {nutrisi['karbohidrat']} g  
-                    - **Vitamin A**: {nutrisi['vitamin_a']}   
-                    - **Vitamin C**: {nutrisi['vitamin_c']}  
+                    - **Vitamin A**: {nutrisi['vitamin_a']}  
+                    - **Vitamin C**: {nutrisi['vitamin_c']}
                     """)
             else:
                 st.warning(nutrisi)
