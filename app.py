@@ -73,8 +73,8 @@ def run():
                     - **Lemak**: {nutrisi['lemak']} g  
                     - **Protein**: {nutrisi['protein']} g  
                     - **Karbohidrat**: {nutrisi['karbohidrat']} g  
-                    - **Vitamin A**: {nutrisi['vitamin_a']} g  
-                    - **Vitamin C**: {nutrisi['vitamin_c']} g  
+                    - **Vitamin A**: {nutrisi['vitamin_a']}   
+                    - **Vitamin C**: {nutrisi['vitamin_c']}  
                     """)
             else:
                 st.warning(nutrisi)
