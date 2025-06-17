@@ -1,4 +1,4 @@
-# Fruit and Vegetable Nutrition Detector
+# Fruit and Vegetable Nutrition Check
 
 ## Anggota
 1. 140810230062 Wa Ode Zachra Chaerani
@@ -6,7 +6,7 @@
 3. 140810230072 Maritza Ratnamaya Nugroho
 
 ## Deskripsi Proyek
-**Fruit and Vegetable Nutrition Detector** adalah aplikasi berbasis Artificial Intelligence (AI) yang dapat mengenali berbagai jenis buah dan sayuran melalui gambar dan secara otomatis menampilkan informasi gizi seperti:
+**Fruit and Vegetable Nutrition Check** adalah aplikasi berbasis Artificial Intelligence (AI) yang dapat mengenali berbagai jenis buah dan sayuran melalui gambar dan secara otomatis menampilkan informasi gizi seperti:
 
 - Kalori  
 - Lemak  
