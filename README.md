@@ -35,7 +35,8 @@ Model AI yang digunakan adalah **Convolutional Neural Network (CNN)**, yang dila
 Dataset yang digunakan adalah koleksi gambar buah dan sayuran yang dikurasi dari berbagai sumber, dengan total 36 kelas yang dapat dikenali oleh model.
 
 Link Dataset:  
-Dataset yang digunakan dapat ditemukan di 
+Dataset yang digunakan dapat ditemukan di [Fruit and Vegetable Image Recognition Dataset (Kaggle)](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
+
 ---
 
 ### Buah dan Sayuran yang Dapat Dideteksi
